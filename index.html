@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;700&family=Lexend+Deca:wght@400;700&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d0dcedc1fc.js" crossorigin="anonymous"></script>
+    <title>Personal Portfolio</title>
+</head>
+<body>
+    <section id="header">
+        <header class="container">
+            <nav>
+                <a href="#portfolio"><img src="./images/20230108_005254_0000-removebg-preview.png" class="logo" alt=""></a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+                <div class="home-text">
+            <div class="content">
+                <h4>Frontend Developer & Designer</h4>
+                <h1>Hi, I'm <span>Blessing</span> Dawodu</h1>
+                <p>I like to craft solid and scalable frontend product <br> with great user experience</p>
+            </div>
+            <div class="profile image">
+                <img src="./images/ble4-removebg-preview.png" alt="">
+               </div>
+               </div>
+               </header>
+    </section>
+
+    <main>
+    <section id="about">  
+        <div class="container">
+            <div class="row">
+                <div class="about_col-1">
+                <img src="./images/png_20230106_151542_0000~2.png" alt="">
+                </div>
+                <div class="about_col-2">
+                    <h2 class="title">About Me</h2>
+                    <p>My name is Blessing Dawodu, from the moment produced "Hello World" in the console of my first applictation, I knew I was hooked into the world of software engineering.</p>
+                    <p>As a frontend developer I specialize in the development of applications that run in a web browser or on a mobile device. I am responsible for the look and feel of a website or application, and I use HTML, CSS, and JavaScript to build and style the user interface.</p>
+                    <p>I work closely with designers to implement visual designs and with backend developers to integrate with server-side functionality. I also test and debug their code to ensure that it is functional and performs well across different devices and browsers.</p>
+                    <p>When I am not doing anything related to coding, I'm obviously learning new skills on how to stay competitive in the market.</p>
+
+                    <div class="tab_title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>HTML<br> CSS<br> JavaScript
+                            <br>Git<br> GitHub<br> Linux Command<br>UX Writing<br> Technical Writing<br> Jira <br> Figma<br>Wordpress<br>Elementor</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Present</span> Software Engineering at ALX</li>
+                            <li><span>2022 - Present</span> Frontend Engineering at Stutern</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018</span> BSc.Industrial Chemistry</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="container">
+            <h2 class="title">Services</h2>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p></p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h3>UX Design</h3>
+                    <p></p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h3>Technical Writing</h3>
+                    <p></p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="title">Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                    <img src="./images/web-app.png" alt="">
+                    <div class="layer">
+                    <h4>Klinik: Web App</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolorem delectus deserunt nisi nulla alias ut soluta odit quas numquam! Corrupti ipsam veritatis enim quod architecto minima quisquam consectetur assumenda.
+                    Iste facere itaque autem nulla eum est ut nam perspiciatis eaque. Doloremque quod a autem amet nobis quo nesciunt dicta perferendis modi aspernatur. Minima vero, dignissimos ea aliquid soluta aut.</p>
+                    <a href="https://Klinik-demo.netlify.app"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="./images/robo-recall.jpg" alt="">
+                    <div class="layer">
+                        <h4>Game Blog: Web App</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate quo reprehenderit amet magni debitis dicta necessitatibus assumenda vero sint, magnam similique, praesentium voluptatem. Odit illo ab unde asperiores quis iste!
+                        Animi repellendus accusamus incidunt consectetur doloribus? Incidunt laudantium dicta ipsum dolorum iure veniam minus rerum sequi ducimus corporis nihil corrupti dolor enim voluptas, quos nesciunt tenetur saepe neque dignissimos aspernatur!</p>
+                        <a href="https://darling-starlight-5b1e97.netlify.app"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                </div>
+
+                <div class="project">
+                    <img src="./images/istockphoto-1285766758-612x612-removebg-preview.png" alt="">
+                    <div class="layer">
+                        <h4>Netflix: Streaming Platform</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste reiciendis similique, aperiam earum unde exercitationem mollitia quis facilis rerum quia, architecto enim! Aut dolores laborum dicta veniam, possimus animi! Dolorem.
+                        Suscipit reiciendis illum maxime sunt perspiciatis error fugiat eos explicabo recusandae praesentium, aspernatur architecto iure odit qui officia neque. Dignissimos laudantium omnis explicabo nesciunt debitis? Laudantium, sit obcaecati? Non, temporibus.</p>
+                        <a href="https://verdant-travesseiro-b7f2fa.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h2 class="title">Contact Me</h2>
+                    <p><i class="fa-regular fa-paper-plane"></i>ibukunoluwadawodu@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>08139758706</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/DammyD"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/ibukunoluwa-dawodu-75bb9619b"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/IbukunDawodu?t=o4TR4sC0XyLxibO7_6zDgQ&s=09"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://medium.com/@ibukunoluwadawodu"><i class="fa-brands fa-medium"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1JuZScezOmJkSNJSDF3U7TixT5SOlFXVY/view?usp=drivesdk" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required autofocus>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>  
+    </section>
+    </main>
+    <footer class="copyright">
+        <p>Copyright &copy; DammyD, 2022.</p>
+    </footer>
+
+    <script src="main.js">
+
+    </script>
+
+</body>
+</html>
