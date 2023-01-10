@@ -36,6 +36,7 @@ nav {
 
 .profile img {
     width: 300px;
+    margin-left: 300px;
 }
 
 nav ul li {
@@ -69,13 +70,14 @@ nav ul li a:hover::after {
 .content {
     margin-top: 10%;
     font-size: 20px;
+    margin-left: 150px;
 }
 
 .content h1 {
     font-size: 35px;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 8px;
-    line-height: 1;
+    line-height: 1.5;
 }
 .content h4{
     font-weight: 500;
@@ -148,12 +150,14 @@ nav ul li a:hover::after {
     width: 50%;
 }
 
-.tab-contents ul li {
-    list-style: none;
+.tab-contents div a {
+    text-decoration: none;
     margin: 10px 0;
+    color: #ababab;
+    cursor: none;
 }
 
-.tab-contents ul li span {
+.tab-contents div a span {
     color:#008080;
     font-size: 14px;
 }
@@ -366,6 +370,7 @@ nav .fas {
 @media only screen and (max-width: 600px) {
     .content {
         margin-top: 10%;
+        margin-left: 55px;
         font-size: 14px;
         padding: 5px 10px;
     }
@@ -376,7 +381,8 @@ nav .fas {
         font-size: 14px;
     }
     .profile img{
-        width: 100%;
+        width: 80%;
+        margin: 5px 25px;
     }
 
     nav .fas {
