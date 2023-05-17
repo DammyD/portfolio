@@ -1,2 +1,2 @@
 # Portfolio
-A collection of a wide of assets that I own
+A collection of a wide asset that I own
